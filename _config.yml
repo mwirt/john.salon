@@ -6,9 +6,9 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: John Salon
+title: John Salon | Ferndale, Michigan
 description: > # this means to ignore newlines until "baseurl:"
-  Web home for Ferndale, Michigan based hairdresser John Niebauer currently based out of Fern and Dale's. John specializes in weddings, colorings, up-dos and more.
+  Web home for Ferndale, Michigan based hairdresser John Niebauer currently based out of Fern and Dale's hair salon. John specializes in weddings, colorings, up-dos and more.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 theme-color: "#378ddd" # theme color for meta tag in head & favicons
