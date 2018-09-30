@@ -38,26 +38,39 @@ header
 	padding: 5px 30px
 	margin: 0px 20px
 	font-size: 1.1rem
-	background-color: $theme
 	border-radius: 4px
+	background-color: $theme
 	a
-		color: $white
+		color: $black
 		font-weight: 700
 	a:hover
 		text-decoration: none
 
 .header-nav-item:hover
 	background-color: $dktheme
+	cursor: pointer
 
 .header-alert
 	position: absolute
 	top: 0
+	width: 330px
 	left: 0
-	width: 100%
+	right: 0
+	margin-left: auto
+	margin-right: auto
 	font-weight: 700
 	font-style: italic
 	text-align: center
-	font-size: 1.2rem
+	font-size: 1.05rem
+	background-color: $theme
+	border-radius: 0px 0px 5px 5px
+	padding: 5px
+
+.header-alert:hover
+	background-color: $dktheme
+	cursor: pointer
+	a
+		text-decoration: none
 
 .alert-text
 	margin-bottom: 0 !important
