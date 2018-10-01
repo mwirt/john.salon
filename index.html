@@ -4,7 +4,7 @@ layout: default
 <div class="index-wrap">
 	<div id="about" class="container">
 		<div class="video-wrap">
-			{% include youtube-video.html ratio='16by9' id='9L7oDRsn3ys' %}
+			{% include youtube-video.html ratio='16by9' id='xiGfHnznQVw' %}
 		</div>
 		<div class="row">
 			<div class="col-sm-4">
@@ -227,26 +227,33 @@ layout: default
 
 <div class="col-md-8">
     <div class="form-area">  
-        <form role="form">
+        <form class="gform pure-form pure-form-stacked" method="POST" action="https://script.google.com/macros/s/AKfycbwRmLSRSMEUdgxh5jKE0t0VRXoXOv4e51hSegEwbFnxZGEE_wG6/exec">
         <br style="clear:both">
-    				<div class="form-group">
+        <div class="form-elements">
+    				<fieldset class="form-group">
 						<input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
-					</div>
-					<div class="form-group">
+					</fieldset>
+					<fieldset class="form-group">
 						<input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
-					</div>
-					<div class="form-group">
+						<span class="email-invalid" style="display:none">
+          Must be a valid email address</span>
+					</fieldset>
+					<fieldset class="form-group">
 						<input type="text" class="form-control" id="mobile" name="mobile" placeholder="Mobile Number" required>
-					</div>
-					<div class="form-group">
+					</fieldset>
+					<fieldset class="form-group">
 						<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
-					</div>
-                    <div class="form-group">
-                    <textarea class="form-control" type="textarea" id="message" placeholder="Message" maxlength="140" rows="7"></textarea>
-                        <span class="help-block"><p id="characterLeft" class="help-block ">You have reached the limit</p></span>                    
-                    </div>
-            
-        <button type="button" id="submit" name="submit" class="btn btn-primary pull-right contact-button">Submit Form</button>
+					</fieldset>
+                    <fieldset class="form-group">
+                    <textarea class="form-control" type="textarea" id="message" name="message" placeholder="Message" maxlength="1000" rows="7"></textarea>                   
+                    </fieldset>
+                    <span class="loading-gif float-left" style="display: none"><img src="/assets/img/loading.gif"></span>
+                     <button type="submit" id="submit" class="btn contact-button pure-button button-xlarge float-right">Submit Form</button>
+            </div>
+          <div class="thankyou_message" style="display:none;">
+      <p>Thanks for contacting me!
+        I will get back to you soon!</p>
+    </div>
         </form>
     </div>
 </div>

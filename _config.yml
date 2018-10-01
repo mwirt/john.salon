@@ -11,7 +11,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Web home for Ferndale, Michigan based hairdresser John Niebauer currently based out of Fern and Dale's hair salon. John specializes in weddings, colorings, up-dos and more.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
-theme-color: "#378ddd" # theme color for meta tag in head & favicons
+theme-color: "#B2DFDB" # theme color for meta tag in head & favicons
 ga-id: "UA-71260883-4" # Google Analytics ID
 
 # Markdown settings
